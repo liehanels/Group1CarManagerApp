@@ -21,7 +21,7 @@ export default function LoginScreen({ navigation }: any) {
       setPassword('');
       
       // Yeet the user to the Garage screen (must match the name in App.tsx exactly)
-      navigation.navigate('Garage', {});
+      navigation.navigate('Garage');
     } else {
       Alert.alert('Access Denied', 'Wrong credentials, mate. Try again or piss off.');
     }

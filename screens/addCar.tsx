@@ -47,7 +47,7 @@ export default function AddCarScreen({ navigation }: any) {
       name: newCar.name,
       description: newCar.description,
       mileage: newCar.mileage,
-      nextService: newCar.nextService,
+      nextService: newCar.nextService
     });
   };
 
